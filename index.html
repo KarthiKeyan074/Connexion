@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    
+     <div class="header">
+        <div class="title">
+            <h4>Connexion</h4>
+        </div>
+     </div>
+     <h4>Slots</h4>
+     
+
+     <section>
+      <div class="container">      
+         <a href="">
+            <div class="card-t">
+                <button class="btn-t">Demo</button>
+            </div>
+           </a>
+             <a href="/Slots/1.html" target="_blank">
+               <div class="card">
+                  <button class="btn" id="btn">1</button>
+               </div>
+             </a>
+             <a href="/Slots/2.html" target="_blank">
+             <div class="card">
+                <button class="btn" id="btn">2</button>
+            </div></a>
+            <a href="/Slots/3.html" target="_blank">
+             <div class="card">
+                <button class="btn" id="btn">3</button>
+            </div></a>
+            <a href="/Slots/4.html" target="_blank">
+             <div class="card">
+                <button class="btn" id="btn">4</button>
+            </div></a>
+            <a href="/Slots/5.html" target="_blank">
+             <div class="card">
+                <button class="btn">5</button>
+            </div>
+            </a>
+            <a href="/Slots/6.html" target="_blank">
+             <div class="card">
+                <button class="btn">6</button>
+            </div>
+            </a>
+            <a href="/Slots/7.html" target="_blank">
+             <div class="card">
+                <button class="btn">7</button>
+            </div></a>
+            <a href="/Slots/" target="_blank">
+             <div class="card">
+                <button class="btn">8</button>
+            </div></a>
+            <a href="/Slots/" target="_blank">
+             <div class="card">
+                <button class="btn">9</button>
+            </div></a>
+            <a href="/Slots/" target="_blank">
+             <div class="card">
+                <button class="btn">10</button>
+            </div></a>
+     </section>
+       
+     <div class="container sect-2">
+      <div class="card">
+         <button class="btn">11</button>
+      </div>
+      <div class="card">
+         <button class="btn">12</button>
+     </div>
+     <div class="card">
+      <button class="btn">13</button>
+  </div>
+   <div class="card">
+      <button class="btn">14</button>
+  </div>
+   <div class="card">
+      <button class="btn">15</button>
+  </div>
+   <div class="card">
+      <button class="btn">16</button>
+  </div>
+   <div class="card">
+      <button class="btn">17</button>
+  </div>
+   <div class="card">
+      <button class="btn">18</button>
+  </div>
+   <div class="card">
+      <button class="btn">19</button>
+  </div>
+   <div class="card">
+      <button class="btn">20</button>
+  </div>
+</div>
+
+<!--Section 3-->
+     <div class="container sect-3">
+      <div class="card">
+         <button class="btn">21</button>
+      </div>
+      <div class="card">
+         <button class="btn">22</button>
+     </div>
+     <div class="card">
+      <button class="btn">23</button>
+  </div>
+   <div class="card">
+      <button class="btn">24</button>
+  </div>
+   <div class="card">
+      <button class="btn">25</button>
+  </div>
+   <div class="card">
+      <button class="btn">26</button>
+  </div>
+   <div class="card">
+      <button class="btn">27</button>
+  </div>
+   <div class="card">
+      <button class="btn">28</button>
+  </div>
+   <div class="card">
+      <button class="btn">29</button>
+  </div>
+   <div class="card">
+      <button class="btn" id="btnx">30</button>
+  </div>
+     </div>
+
+    
+     <script>
+       
+       document.querySelectorAll('.btn').forEach(function(btn){
+      btn.addEventListener('click', function() {
+      this.textContent = '#';
+      });
+        });
+ 
+   </script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.10.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyAZfcHAN4KMTkHHxCLsNbXOeL3Qa05cMPo",
+        authDomain: "connexion-v2.firebaseapp.com",
+        projectId: "connexion-v2",
+        storageBucket: "connexion-v2.appspot.com",
+        messagingSenderId: "581928197484",
+        appId: "1:581928197484:web:10742dbde05da00b7a6749",
+        measurementId: "G-LN4EXWXG5K"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+</body>
+</html>
